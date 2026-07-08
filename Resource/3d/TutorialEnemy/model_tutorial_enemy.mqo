@@ -2,13 +2,13 @@ Metasequoia Document
 Format Text Ver 1.0
 
 Scene {
-	pos 4.7725 -73.5830 1455.1915
+	pos 4.7725 -73.5830 138.7779
 	lookat 0.0000 0.0000 0.0000
-	head -700.8127
-	pich 0.0208
+	head -700.1920
+	pich 0.1708
 	bank -6.2900
 	ortho 0
-	zoom2 5.0784
+	zoom2 53.2509
 	amb 0.251 0.251 0.251
 	dirlights 1 {
 		light {
@@ -18,11 +18,11 @@ Scene {
 	}
 }
 Material 5 {
-	"–Ø" shader(3) col(0.188 0.067 0.039 1.000) dif(1.000) amb(0.230) emi(0.960) spc(0.000) power(5.00) tex("“y.png") bump("Moku.png")
+	"–Ø" shader(3) col(0.188 0.067 0.039 1.000) dif(1.000) amb(0.230) emi(0.960) spc(0.000) power(5.00) bump("tex_wood.png")
 	"mat1" shader(3) col(0.447 0.000 0.035 1.000) dif(1.000) amb(0.600) emi(0.650) spc(0.000) power(5.00)
 	"mat2" shader(3) col(1.000 1.000 1.000 1.000) dif(1.000) amb(0.600) emi(0.430) spc(0.000) power(5.00)
-	"–¾‚é‚¢" shader(3) col(0.231 0.082 0.047 1.000) dif(1.000) amb(0.230) emi(0.960) spc(0.000) power(5.00) tex("“y.png") bump("Moku.png")
-	"ˆÃ‚¢" shader(3) col(0.165 0.063 0.035 1.000) dif(1.000) amb(0.230) emi(0.960) spc(0.000) power(5.00) tex("“y.png") bump("Moku.png")
+	"–¾‚é‚¢" shader(3) col(0.231 0.082 0.047 1.000) dif(1.000) amb(0.230) emi(0.960) spc(0.000) power(5.00) bump("tex_wood.png")
+	"ˆÃ‚¢" shader(3) col(0.165 0.063 0.035 1.000) dif(1.000) amb(0.230) emi(0.960) spc(0.000) power(5.00) bump("tex_wood.png")
 }
 Object "obj1" {
 	depth 0

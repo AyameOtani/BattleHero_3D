@@ -242,7 +242,7 @@ Player3D::Player3D(int modelpath, VECTOR initPos, Status3D* status, bool isSepar
 	if (Master::msPlayerModelName == ("Resource/3d/Player/Hero.mv1"))
 	{
 		// アタッチしているもの
-		mpModel->AddAttachment("Resource/PlayerBoost.mqo", "spineB"); // アタッチ先を wp というフレームモデルを作成
+		mpModel->AddAttachment("Resource/3d/model_player_boost.mqo", "spineB"); // アタッチ先を wp というフレームモデルを作成
 	}
 	mpBaria->Initialize(); // バリアの初期化を呼ぶ
 

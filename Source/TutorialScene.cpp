@@ -151,7 +151,7 @@ void TutorialScene::Initialize() // 初期化
 	// ２　銃撃型
 	// ３　逃げる型
 	// 位置　HP　BOOST　SPEED MAXSPEED
-	new Enemy3D(2, "Resource/3d/TutorialEnemy/TutorialEnemy.mqo", VGet(0.0f, 0.0f, 1000.0f), 4000.0f, 300.0f, 3.0f, 8.0f);
+	new Enemy3D(2, "Resource/3d/TutorialEnemy/model_tutorial_enemy.mqo", VGet(0.0f, 0.0f, 1000.0f), 4000.0f, 300.0f, 3.0f, 8.0f);
 
 
 	// 壁の基本設定
@@ -395,7 +395,7 @@ void TutorialScene::Update() // 更新
 
 	if (pEnemyList.empty()) // 敵がいないなら
 	{
-		new Enemy3D(2, "Resource/3d/TutorialEnemy/TutorialEnemy.mqo", VGet(0.0f, 0.0f, 1000.0f), 400.0f, 300.0f, 3.0f, 8.0f);
+		new Enemy3D(2, "Resource/3d/TutorialEnemy/model_tutorial_enemy.mqo", VGet(0.0f, 0.0f, 1000.0f), 400.0f, 300.0f, 3.0f, 8.0f);
 	}
 
 

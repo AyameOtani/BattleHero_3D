@@ -73,7 +73,7 @@ int Graph::DefeatPhoto(std::string filename)
 	}
 	else if (filename == "Resource/3d/Devil/Devil.mv1")
 	{
-		defeatHandle = LoadGraph("Resource/defeat/img_defeat_devil.png");
+		defeatHandle = LoadGraph("Resource/defeat/img_defeat_devil..png");
 	}
 	else
 	{
