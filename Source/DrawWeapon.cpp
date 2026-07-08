@@ -107,12 +107,12 @@ void DrawWeapon::AllLoad()// ここで出したいモデルの読み込み
 {
 	// 読み込む
 	// ここ表示用のは別でつくるのありかも
-	LoadWeapon(Shild, "Resource/DrawWeapon/Shield/Shield.mqo", VGet(posX, posY, 0.0f));
-	LoadWeapon(WriteGun, "Resource/DrawWeapon/Gun/BlackGun.mqo", VGet(posX, posY, 0.0f));
-	LoadWeapon(BlackGun, "Resource/DrawWeapon/Gun/WhiteGun.mqo", VGet(posX, posY, 0.0f));
-	LoadWeapon(BlueGun, "Resource/DrawWeapon/Gun/BlueGun.mqo", VGet(posX, posY, 0.0f));
-	LoadWeapon(YARI, "Resource/DrawWeapon/Spear/Spear.mqo", VGet(posX, posY, 0.0f));
-	LoadWeapon(GT, "Resource/DrawWeapon/GT/Guitar.mqo", VGet(posX, posY, 0.0f));
+	LoadWeapon(Shild, "Resource/drawWeapons/model_shield/shield.mqo", VGet(posX, posY, 0.0f));
+	LoadWeapon(WriteGun, "Resource/drawWeapons/model_gun/black_gun.mqo", VGet(posX, posY, 0.0f));
+	LoadWeapon(BlackGun, "Resource/drawWeapons/model_gun/white_gun.mqo", VGet(posX, posY, 0.0f));
+	LoadWeapon(BlueGun, "Resource/drawWeapons/model_gun/blue_gun.mqo", VGet(posX, posY, 0.0f));
+	LoadWeapon(YARI, "Resource/drawWeapons/model_spear/spear.mqo", VGet(posX, posY, 0.0f));
+	LoadWeapon(GT, "Resource/drawWeapons/model_guitar/guitar.mqo", VGet(posX, posY, 0.0f));
 	
 
 
