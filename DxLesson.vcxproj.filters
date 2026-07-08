@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\3D_管理関係">
+      <UniqueIdentifier>{1d991884-af9e-43d9-beec-cd5261cbf6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D_管理関係">
+      <UniqueIdentifier>{05c0124d-ce1a-4c7f-a8f4-bdc9e91bf51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D_Scene関係">
+      <UniqueIdentifier>{0919d998-c26c-4011-b763-65a4e6dc7f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D_Scene関係">
+      <UniqueIdentifier>{ba27a38c-4e26-453e-b86f-cbdd68c24c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D_エフェクト関係">
+      <UniqueIdentifier>{e2de3788-f87c-4f68-bda7-6db333d377da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D_エフェクト関係">
+      <UniqueIdentifier>{2dc8fc37-99f8-424a-942e-75f428f10e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D_敵味方関係">
+      <UniqueIdentifier>{2b359ed7-e1b3-457d-bd4e-e77db868ee66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D_敵味方関係">
+      <UniqueIdentifier>{e380ad4b-3232-4fe9-be05-f0e45500af9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D_ステージ関係">
+      <UniqueIdentifier>{9cbc2d7b-e085-4dfb-a509-fd6d53963973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D_ステージ関係">
+      <UniqueIdentifier>{697a01a4-3efe-437c-b18b-4cce850c545a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D_モデル管理関係">
+      <UniqueIdentifier>{9eb31662-0a71-4d24-a90a-86f9548f15de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D_モデル管理関係">
+      <UniqueIdentifier>{1aaf86d5-6d23-4262-9fe8-d68b4804c841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3D_Scene関係\画像関係">
+      <UniqueIdentifier>{3574bf96-533c-444a-ba62-729bdd8979b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3D_Scene関係\画像関係">
+      <UniqueIdentifier>{1ce7d14c-6e0b-4839-87e5-1c4db7c420ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Collision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object2D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object3D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AttachmentModel.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoostBar.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Baria.cpp">
+      <Filter>ソース ファイル\3D_敵味方関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet3D.cpp">
+      <Filter>ソース ファイル\3D_敵味方関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect2.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect3.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy3D.cpp">
+      <Filter>ソース ファイル\3D_敵味方関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureAnimation.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelAnimation.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinResult3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Title3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SelectScene3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkyBox.cpp">
+      <Filter>ソース ファイル\3D_ステージ関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player3D.cpp">
+      <Filter>ソース ファイル\3D_敵味方関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Floor.cpp">
+      <Filter>ソース ファイル\3D_ステージ関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wall.cpp">
+      <Filter>ソース ファイル\3D_ステージ関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage.cpp">
+      <Filter>ソース ファイル\3D_ステージ関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Master.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Unit.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoseResult3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Status3D.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HpBar.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletMark.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameTimer.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadingScene.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Loading.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WeaponManager.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect4.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MiniMap3D.cpp">
+      <Filter>ソース ファイル\3D_ステージ関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawPlayer.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletEffect.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BreakableGlass.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerAnim.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OperateScene3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SelectEffect.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DeathEffect.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameManager.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SelectWeapon.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawWeapon.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph.cpp">
+      <Filter>ソース ファイル\3D_Scene関係\画像関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SeparateModelAnimation.cpp">
+      <Filter>ソース ファイル\3D_モデル管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Trail3D.cpp">
+      <Filter>ソース ファイル\3D_管理関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TutorialManager.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Score3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TutorialScene.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Slide3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係\画像関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SandEffect.cpp">
+      <Filter>ソース ファイル\3D_エフェクト関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RankingScene3D.cpp">
+      <Filter>ソース ファイル\3D_Scene関係</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Object2D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object3D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WinResultScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene3D.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WinResult3D.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SelectScene3D.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Title3D.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoostBar.h">
+      <Filter>ヘッダー ファイル\3D_管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>ヘッダー ファイル\3D_管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HpBar.h">
+      <Filter>ヘッダー ファイル\3D_管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h">
+      <Filter>ヘッダー ファイル\3D_管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Master.h">
+      <Filter>ヘッダー ファイル\3D_管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Status3D.h">
+      <Filter>ヘッダー ファイル\3D_管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Unit.h">
+      <Filter>ヘッダー ファイル\3D_管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoseResult3D.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureAnimation.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelAnimation.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AttachmentModel.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Baria.h">
+      <Filter>ヘッダー ファイル\3D_敵味方関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bullet3D.h">
+      <Filter>ヘッダー ファイル\3D_敵味方関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy3D.h">
+      <Filter>ヘッダー ファイル\3D_敵味方関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player3D.h">
+      <Filter>ヘッダー ファイル\3D_敵味方関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect2.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect3.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkyBox.h">
+      <Filter>ヘッダー ファイル\3D_ステージ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage.h">
+      <Filter>ヘッダー ファイル\3D_ステージ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Floor.h">
+      <Filter>ヘッダー ファイル\3D_ステージ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wall.h">
+      <Filter>ヘッダー ファイル\3D_ステージ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulletMark.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameTimer.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SeparateModelAnimation.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelUtility.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadingScene.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Loading.h">
+      <Filter>ヘッダー ファイル\3D_管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WeaponManager.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect4.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MiniMap3D.h">
+      <Filter>ヘッダー ファイル\3D_ステージ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawPlayer.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulletEffect.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BreakableGlass.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerAnim.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OperateScene3D.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DeathEffect.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SelectEffect.h">
+      <Filter>ヘッダー ファイル\3D_エフェクト関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameManager.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawWeapon.h">
+      <Filter>ヘッダー ファイル\3D_モデル管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SelectWeapon.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graph.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係\画像関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TutorialScene.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RankingScene3D.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Slide3D.h">
+      <Filter>ヘッダー ファイル\3D_Scene関係\画像関係</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SandEffect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Score3D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Trail3D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TutorialManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Hero.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
