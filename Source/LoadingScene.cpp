@@ -71,7 +71,7 @@ void LoadingScene::StartAsyncLoads()
     // ステージ   まだ持っていない時だけ新しくロード  もうあるならそんまま使う
     if (GameManager::Resources.stageModel == -1)
     {
-        mnStageHandle = MV1LoadModel("Resource/NewMap/マップすべて.mqo");
+        mnStageHandle = MV1LoadModel("Resource/mapModel/model_map_game.mqo");
     }
     else
     {
@@ -82,7 +82,7 @@ void LoadingScene::StartAsyncLoads()
     // ステージのｋリジョン   まだ持っていない時だけ新しくロード  もうあるならそんまま使う
     if (GameManager::Resources.stageCollModel == -1)
     {
-        mnStageCollHandle = MV1LoadModel("Resource/NewMap/マップすべて.mqo");
+        mnStageCollHandle = MV1LoadModel("Resource/mapModel/model_map_game.mqo");
     }
     else
     {

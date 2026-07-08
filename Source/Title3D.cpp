@@ -91,7 +91,7 @@ void Title3D::Initialize()
 	if (GameManager::Resources.titleStage == -1)
 	{
 		// まだ誰もロードしていないなら、普通にロードして GameManager に預ける
-		GameManager::Resources.titleStage = MV1LoadModel("Resource/NewMap/タイトルマップ.mqo");
+		GameManager::Resources.titleStage = MV1LoadModel("Resource/mapModel/model_map_title.mqo");
 	}
 	new Stage(GameManager::Resources.titleStage, -1);
 

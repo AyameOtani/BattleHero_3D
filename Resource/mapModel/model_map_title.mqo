@@ -2,13 +2,13 @@ Metasequoia Document
 Format Text Ver 1.0
 
 Scene {
-	pos -1389.6888 257.3649 100000.0000
+	pos -3281.5459 -352.9239 24414.0625
 	lookat 0.0000 0.0000 0.0000
-	head -656.6190
-	pich 0.3392
+	head -672.5256
+	pich 0.5208
 	bank -6.3300
 	ortho 0
-	zoom2 0.0739
+	zoom2 0.3027
 	amb 0.251 0.251 0.251
 	dirlights 1 {
 		light {
@@ -18,15 +18,15 @@ Scene {
 	}
 }
 Material 9 {
-	"地面" shader(3) col(0.345 0.255 0.141 1.000) dif(0.800) amb(0.390) emi(0.000) spc(0.000) power(5.00) tex("土.png") bump("バンプマッピング\地面.png")
-	"建物上面" shader(3) col(0.612 0.639 0.604 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("瓦礫.png") bump("バンプマッピング\瓦礫B.png")
-	"建物亀裂" shader(3) col(0.627 0.627 0.584 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("建物亀裂.png") bump("バンプマッピング\建物亀裂B.png")
-	"建物２" shader(3) col(0.294 0.294 0.294 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("建物亀裂.png") bump("バンプマッピング\建物亀裂B.png")
-	"建物側面２" shader(3) col(0.173 0.165 0.165 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("瓦礫.png") bump("バンプマッピング\瓦礫B.png")
-	"コンテナ青横面" shader(3) col(0.000 0.902 1.000 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("青コンテナ.png") bump("バンプマッピング\青コンテナB.png")
-	"コンテナ黄横面" shader(3) col(1.000 0.882 0.000 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("黄色コンテナ.png") bump("バンプマッピング\黄色コンテナB.png")
-	"コンテナ赤横面" shader(3) col(1.000 0.000 0.024 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("赤コンテナ.png") bump("バンプマッピング\黄色コンテナB.png")
-	"建物改装" shader(3) col(0.682 0.682 0.682 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("建物.png") bump("バンプマッピング\建物B.png")
+	"地面" shader(3) col(0.345 0.255 0.141 1.000) dif(0.800) amb(0.390) emi(0.000) spc(0.000) power(5.00) tex("tex_map\tex_soil.png") bump("tex_bump_map\bump_soil.png")
+	"建物上面" shader(3) col(0.612 0.639 0.604 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("tex_map\tex_rubble.png") bump("tex_bump_map\bump_rubble.png")
+	"建物亀裂" shader(3) col(0.627 0.627 0.584 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("tex_map\tex_building_crack.png") bump("tex_bump_map\bump_building_crack.png")
+	"建物２" shader(3) col(0.294 0.294 0.294 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("tex_map\tex_building_low.png") bump("tex_bump_map\bump_building_low.png")
+	"建物側面２" shader(3) col(0.173 0.165 0.165 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("tex_map\tex_rubble.png") bump("tex_bump_map\bump_rubble.png")
+	"コンテナ青横面" shader(3) col(0.000 0.902 1.000 1.000) dif(0.800) amb(0.600) emi(0.070) spc(0.000) power(5.00) tex("tex_map\tex_container_blue.png") bump("tex_bump_map\bump_container_blue.png")
+	"コンテナ黄横面" shader(3) col(1.000 0.882 0.000 1.000) dif(0.800) amb(0.600) emi(0.300) spc(0.000) power(5.00) tex("tex_map\tex_container_yellow.png") bump("tex_map\tex_container_yellow.png")
+	"コンテナ赤横面" shader(3) col(1.000 0.000 0.024 1.000) dif(0.800) amb(0.600) emi(0.110) spc(0.130) power(56.00) tex("tex_map\tex_container_red.png") bump("tex_bump_map\bump_container_red.png")
+	"建物改装" shader(3) col(0.682 0.682 0.682 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("tex_map\tex_building_high.png") bump("tex_bump_map\bump_building_high.png")
 }
 Object "改装建物" {
 	depth 0
@@ -1476,7 +1476,7 @@ Object "改装コンテナ横" {
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
 	visible 15
-	locking 0
+	locking 1
 	shading 1
 	facet 59.5
 	color 0.898 0.498 0.698
@@ -1889,7 +1889,7 @@ Object "改装コンテナ縦" {
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
 	visible 15
-	locking 0
+	locking 1
 	shading 1
 	facet 59.5
 	color 0.898 0.498 0.698
@@ -2432,7 +2432,7 @@ Object "改装上コンテナ" {
 	rotation 0.000000 -0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
 	visible 15
-	locking 0
+	locking 1
 	shading 1
 	facet 59.5
 	color 0.898 0.498 0.698

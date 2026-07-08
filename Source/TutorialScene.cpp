@@ -114,12 +114,12 @@ void TutorialScene::Initialize() // 初期化
 	if (GameManager::Resources.stageModel == -1)
 	{
 		// まだ誰もロードしていないなら、普通にロードして GameManager に預ける
-		GameManager::Resources.stageModel = MV1LoadModel("Resource/NewMap/マップすべて.mqo");
+		GameManager::Resources.stageModel = MV1LoadModel("Resource/mapModel/model_map_game.mqo");
 	}
 	if (GameManager::Resources.stageCollModel == -1)
 	{
 		// まだ誰もロードしていないなら、普通にロードして GameManager に預ける
-		GameManager::Resources.stageCollModel = MV1LoadModel("Resource/NewMap/マップすべて.mqo");
+		GameManager::Resources.stageCollModel = MV1LoadModel("Resource/mapModel/model_map_game.mqo");
 	}
 	//左側のは、あたり判定なしの画像のみ　右側のは、画像なしの判定のみ
 	new Stage(GameManager::Resources.stageModel, GameManager::Resources.stageCollModel);
