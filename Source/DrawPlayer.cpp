@@ -131,7 +131,7 @@ void DrawPlayer::AllLoad()// ここで出したいモデルの読み込み
 
 void DrawPlayer::EffectLoad()
 {
-	mSelectEffect.Load("Resource/displayEffect/tex_ui_compass.png"); // エフェクトをロード
+	mSelectEffect.Load("Resource/displayEffects/tex_ui_compass.png"); // エフェクトをロード
 	mSelectEffect.StartHold(VGet(posX, 1.0f, 0.0f));
 
 	SetUseZBuffer3D(FALSE);

@@ -114,12 +114,12 @@ Player3D::Player3D(std::string filename, VECTOR initPos, Status3D* status, bool 
 	}
 
 
-	mnDushHandle = LoadGraph("Resource/displayEffect/tex_effect_dash.png");
+	mnDushHandle = LoadGraph("Resource/displayEffects/tex_effect_dash.png");
 	if (mnDushHandle == -1)
 	{
 		printfDx("ダッシュの画像がない");
 	}
-	mnDushHandleSub = LoadGraph("Resource/displayEffect/tex_effect_dash_sub.png");
+	mnDushHandleSub = LoadGraph("Resource/displayEffects/tex_effect_dash_sub.png");
 	if (mnDushHandleSub == -1)
 	{
 		printfDx("ダッシュサブの画像がない");
@@ -263,12 +263,12 @@ Player3D::Player3D(int modelpath, VECTOR initPos, Status3D* status, bool isSepar
 	}
 
 
-	mnDushHandle = LoadGraph("Resource/displayEffect/tex_effect_dash.png");
+	mnDushHandle = LoadGraph("Resource/displayEffects/tex_effect_dash.png");
 	if (mnDushHandle == -1)
 	{
 		printfDx("ダッシュの画像がない");
 	}
-	mnDushHandleSub = LoadGraph("Resource/displayEffect/tex_effect_dash_sub.png");
+	mnDushHandleSub = LoadGraph("Resource/displayEffects/tex_effect_dash_sub.png");
 	if (mnDushHandleSub == -1)
 	{
 		printfDx("ダッシュサブの画像がない");

@@ -57,27 +57,27 @@ int Graph::DefeatPhoto(std::string filename)
 
 	if (filename == "Resource/3d/Player/Hero.mv1")
 	{
-		defeatHandle = LoadGraph("Resource/defeat/Hero.png");
+		defeatHandle = LoadGraph("Resource/defeat/img_defeat_hero.png");
 	}
 	else if (filename == "Resource/3d/Zombie/Zombie_Mesh.mv1")
 	{
-		defeatHandle = LoadGraph("Resource/defeat/Zombi.png");
+		defeatHandle = LoadGraph("Resource/defeat/img_defeat_zombie.png");
 	}
 	else if (filename == "Resource/3d/Military/Guntai.mv1")
 	{
-		defeatHandle = LoadGraph("Resource/defeat/Guntai.png");
+		defeatHandle = LoadGraph("Resource/defeat/img_defeat_military.png");
 	}
 	else if (filename == "Resource/3d/Bob/Bob.mv1")
 	{
-		defeatHandle = LoadGraph("Resource/defeat/Bob.png");
+		defeatHandle = LoadGraph("Resource/defeat/img_defeat_bob.png");
 	}
 	else if (filename == "Resource/3d/Devil/Devil.mv1")
 	{
-		defeatHandle = LoadGraph("Resource/defeat/Niku.png");
+		defeatHandle = LoadGraph("Resource/defeat/img_defeat_devil.png");
 	}
 	else
 	{
-		defeatHandle = LoadGraph("Resource/defeat/Hero.png");
+		defeatHandle = LoadGraph("Resource/defeat/img_defeat_hero.png");
 	}
 
 	return defeatHandle;
@@ -93,27 +93,27 @@ int Graph::VictoryPhoto(std::string filename)
 
 	if (filename == "Resource/3d/Player/Hero.mv1")
 	{
-		victoryHandle = LoadGraph("Resource/victory/Hero.png");
+		victoryHandle = LoadGraph("Resource/victory/img_victory_hero.png");
 	}
 	else if (filename == "Resource/3d/Zombie/Zombie_Mesh.mv1")
 	{
-		victoryHandle = LoadGraph("Resource/victory/Zombi.png");
+		victoryHandle = LoadGraph("Resource/victory/img_victory_zombie.png");
 	}
 	else if (filename == "Resource/3d/Military/Guntai.mv1")
 	{
-		victoryHandle = LoadGraph("Resource/victory/Guntai.png");
+		victoryHandle = LoadGraph("Resource/victory/img_victory_military.png");
 	}
 	else if (filename == "Resource/3d/Bob/Bob.mv1")
 	{
-		victoryHandle = LoadGraph("Resource/victory/Bob.png");
+		victoryHandle = LoadGraph("Resource/victory/img_victory_bob.png");
 	}
 	else if (filename == "Resource/3d/Devil/Devil.mv1")
 	{
-		victoryHandle = LoadGraph("Resource/victory/Niku.png");
+		victoryHandle = LoadGraph("Resource/victory/img_victory_devil.png");
 	}
 	else
 	{
-		victoryHandle = LoadGraph("Resource/victory/Hero.png");
+		victoryHandle = LoadGraph("Resource/victory/img_victory_hero.png");
 	}
 
 	return victoryHandle;
